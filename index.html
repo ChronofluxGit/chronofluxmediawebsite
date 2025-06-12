@@ -33,10 +33,13 @@
     </div>
 
     <header id="intro">
-        <video autoplay muted loop id="bg-video">
-            <source src="videos/waves-bg.mp4" type="video/mp4">
+        <!-- === START OF CHANGE === -->
+        <!-- I've added a 'poster' image and updated the video source URL -->
+        <video autoplay muted loop id="bg-video" poster="images/waves-poster.jpg">
+            <source src="https://res.cloudinary.com/dz32ynloa/video/upload/v1749756144/iae948nj1a1rq84qlatq.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
+        <!-- === END OF CHANGE === -->
         <div class="header-content">
             <div class="logo">CQ</div>
             <span class="menu-icon" onclick="openNav()">☰ MENU</span>
